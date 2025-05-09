@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+</head>
+<body>
+
+    <!--MENU SUPERIOR-->
+    <div id="menusuperior"> 
+        <a href="https://www.docegp.com.br"> <img src="./imagens/logo.svg" id="logo" alt="error"> </a>
+        <h1 id="titulo-menusuperior">De os primeiros passos <br> 
+            em sua carreira de tecnologia</h1>
+        <p id="texto-menusuperior">Inscreva-se no curso gratuito de Introdução à <br> 
+            Tecnologia 
+            da DNC School e aprenda os principais <br> 
+            fundamentos para 
+            construir experiências efetivas.</p>
+         </div>
+    <!--MENU INFORMACIONAL-->     
+         <div id="menuinformacional">            
+            <p class="textoinfo"> <img src="icones/certificado.svg" class="icone" id="certificado" alt="erooou!"> Certificado de conclusão</p>
+            <p class="textoinfo"> <img src="icones/relogio.svg" class="icone" id="relogio" alt="erooou!"> 4 Horas de conteúdo</p>
+            <p class="textoinfo">  <img src="icones/camera.svg" class="icone" id-="camera" alt="eroooou!"> Aulas online gravadas</p>
+
+            
+        </div>
+        
+    <!--PARTE DO VIDEO -->  
+        <div id="secvideo">
+            <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/8VjqB37uj7k" title="URGENTE - ALERTA DE TSUNAMI e GRANDE TERREMOTO NA AMÉRICA DO SUL - ESTÃO EVACUANDO A ÁREA AGORA!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div id="blocotextvid">
+                <h1 id="titulovideo"> Aprenda com especialistas e <br> inicie seu primeiro projeto </h1> <br><br>
+                <p id="textovideo"> Conheça o processo de desenvolvimento e aprenda como utilizar <br>
+                os principais métodos e ferramentas da area para resolver <br>
+                problemas complexos.</p><br><br>
+                <p> Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos. </p> </div>
+            
+        </div>
+        <!-- CARROSSEL-->
+
+        <div id="carrossel">
+             <h1 id="titulocarrossel"> Mais de 500 alunos já iniciaram seus estudos </h1>
+            <!--divisão dos cards-->
+
+             <div id="div-cards">
+                <img id="seta-esq" onclick="RolarParaEsquerda()" class="seta" src="./icones/seta-esq.svg" alt="error">
+                <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="error">
+                <img id="samantha" class="card" src="./cards/samantha.svg" alt="error">
+                <img id="bruna" class="card" src="./cards/bruna.svg" alt="error">
+                <img id="seta-dir" onclick="minhapica()" class="seta" src="./icones/seta-dir.svg" alt="error">
+            </div>
+
+            </div>
+
+            <!--DIV FORMULARIO-->
+            <div id="formulario">
+                <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+                <form action="https://iformsheets.com/external_submit.php?uuid=6fc423f29ecb7365e5bc672cced9e1b1" method="POST">
+                    <input type="text" placeholder="Como se chama corno?" name="Name" required> <br>
+                    <input type="email" placeholder="seu email mano?" name="email" required><br>
+                    <input type="number" placeholder="telefone" name="phone"><br>
+                    <input type="hidden" name="created">
+                    <button>Clique aqui para ir pra pqp</button>
+
+                </form>
+                    
+               
+
+            </div>
+  
+        <script src="index.js"></script>
+
+</body>
+</html>
